@@ -1,0 +1,90 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #F2CFB3;
+  transform: translate(0%, -10%);
+}
+
+.entry{
+  position: fixed;
+  font-size: 32px;
+  font-family: 'Quicksand', sans-serif;
+  opacity: 0.67;
+}
+
+.frontpg {
+  align-items: center;
+}
+.recordplayer{
+  position: fixed;
+  z-index: 10;
+}
+
+.redcircle{
+  position: fixed;
+  z-index: 9;
+  transform: translate(-15%, -2%);
+}
+
+.bluecircle{
+  position: fixed;
+  z-index: 8;
+  transform: translate(35%, 20%);
+}
+
+.orangecircle{
+  position: fixed;
+  z-index: 0;
+  transform: translate(60%, -80%);
+}
+
+.logo-txt{
+  position: fixed;
+  font-size: 64px;
+  font-family: 'Caprasimo', cursive;
+  opacity: 0.67;
+}
+
+.Likely-To{
+  transform: translate(0%, 205%);
+}
+
+.WhoMost{
+  transform: translate(0%, -205%);
+}
+
+#Start{
+  position: fixed;
+  z-index: 10;
+  transform: translate(0%, 350px);
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+/* Hover state */
+#Start:hover {
+  background-color: #ea3f28;
+  color: white;
+}
+
+/* Active (clicked) state */
+
+
+#Name{
+  position: fixed;
+  z-index: 11;
+  transform: translate(0%, 280px);
+  max-width: 500px;
+  width: 50%;
+  height: 5%;
+  border: none;
+  border-radius: 30px;
+  width: 500px;
+  height: 50px;
+}
